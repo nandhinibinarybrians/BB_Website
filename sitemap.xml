@@ -1,8 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.binarybrains.in/</loc><priority>1.0</priority></url>
-  <url><loc>https://www.binarybrains.in/about.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.binarybrains.in/programs.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.binarybrains.in/approach.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.binarybrains.in/contact.html</loc><priority>0.7</priority></url>
+
+  <!-- Home -->
+  <url>
+    <loc>https://www.binarybrainsinstitute.com/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://www.binarybrainsinstitute.com/about.html</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Programs -->
+  <url>
+    <loc>https://www.binarybrainsinstitute.com/programs.html</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.binarybrainsinstitute.com/programs/web-development.html</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.binarybrainsinstitute.com/programs/python.html</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.binarybrainsinstitute.com/programs/data-science.html</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Approach -->
+  <url>
+    <loc>https://www.binarybrainsinstitute.com/approach.html</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://www.binarybrainsinstitute.com/contact.html</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://www.binarybrainsinstitute.com/blog.html</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.binarybrainsinstitute.com/blog/ai-in-education.html</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.binarybrainsinstitute.com/blog/python-automation.html</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

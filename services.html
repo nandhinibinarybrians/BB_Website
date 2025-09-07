@@ -5,7 +5,13 @@
 
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Binary Brains</title>
+<title>Web Development Course | Binary Brains Institute</title>
+<meta name="description" content="Join Binary Brains Institute's Web Development course and learn HTML, CSS, JavaScript, React, and Fullstack projects to become a job-ready developer.">
+<title>Python Programming Course | Binary Brains Institute</title>
+<meta name="description" content="Master Python programming with Binary Brains Institute. Hands-on projects, automation scripts, and career-focused learning for beginners to advanced learners.">
+<title>Data Science & AI Course | Binary Brains Institute</title>
+<meta name="description" content="Learn Data Science, Machine Learning, and AI at Binary Brains Institute with practical projects, Python, and industry-ready skills for a high-paying career.">
+
 <link rel="icon" href="assets/logo.jpeg" />
 <link rel="stylesheet" href="styles.css" />
 
@@ -26,8 +32,15 @@
       <li><a data-nav href="internship.html">Internship / Courses</a></li>
       <li><a data-nav href="contact.html">Contact Us</a></li>
     </ul>
-    <button class="menu-toggle">Menu</button>
+     <!--  Hamburger Icon -->
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </div>
+
+  <!-- Mobile Menu -->
   <div class="mobile">
     <a data-nav href="index.html">Home</a>
     <a data-nav href="about.html">About Us</a>
@@ -113,32 +126,65 @@
 </section>
 
 
+<!-- FOOTER -->
 <footer>
-  <div class="container section">
-    <div class="cols">
-      <div>
-        <div class="brand"><img src="assets/logo.jpeg" alt="" /><span>Binary Brains</span><small class="tagline">EMPOWERING FUTURE INNOVATORS</small></div>
-        <p class="muted">Guided by vision, powered by innovation — Binary Brains is shaping the future of tech professionals.</p>
+  <div class="container section footer-content"> 
+    <!-- Brand & Vision -->
+    <div class="footer-brand">
+      <div class="brand">
+        <img src="assets/logo.jpeg" alt="" />
+        <span>Binary Brains</span>
+        <small class="tagline">EMPOWERING FUTURE INNOVATORS</small>
       </div>
-      <div>
-        <h4>Programs</h4>
-        <ul>
-           <li><a href="services.html">Backend Development</a></li>
-          <li><a href="services.html">Fullstack Development</a></li>
-          <li><a href="services.html">Web Development</a></li>
-          <li><a href="services.html">Networking & Cloud</a></li>
-          <li><a href="internship.html">Internships</a></li>
-        </ul>
-      </div>
-      <div>
+      <p>Guided by vision, powered by innovation — Binary Brains is shaping the future of tech professionals.</p>
+    </div>
+
+    <!-- Sections Container -->
+    <div class="footer-sections-wrapper">
+      
+      <!-- Contact Left -->
+      <div class="footer-contact">
         <h4>Contact</h4>
         <ul>
-          <li><a href="mailto:binarybrainsinstitute@gmail.com">binarybrainsinstitute@gmail.com</a></li>
-          <li><a>+91 8220196303</a></li>
+          <li>
+            <a href="mailto:binarybrainsinstitute@gmail.com">
+              <img src="assets/email.png" alt="Email" class="footer-icon" /> binarybrainsinstitute@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="https://www.binarybrainsinstitute.com" target="_blank">
+              <img src="assets/site.png" alt="Website" class="footer-icon" /> www.binarybrainsinstitute.com
+            </a>
+          </li>
+          <li>
+            <a>
+              <img src="assets/phone.png" alt="Phone" class="footer-icon" /> +91 8220196303
+            </a>
+          </li>
         </ul>
       </div>
+
+      <!-- Social Right -->
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/binarybrains.io?igsh=MWxpbGZ6ZWJpejVvcg==" target="_blank">
+              <img src="assets/instagram.png" alt="Instagram" class="footer-icon" /> binarybrains.io
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" target="_blank">
+              <img src="assets/linkedin.png" alt="LinkedIn" class="footer-icon" /> LinkedIn
+            </a>
+          </li>
+        </ul>
+      </div>
+
     </div>
-    <p style="color:#94a3b8;margin-top:1rem">© 2025 Binary Brains • All rights reserved.</p>
+
+    <!-- Footer Copy -->
+    <p class="footer-copy">© 2025 Binary Brains • All rights reserved.</p>
   </div>
 </footer>
 
